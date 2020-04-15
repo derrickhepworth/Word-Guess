@@ -1,0 +1,33 @@
+@font-face{
+    font-family: emoFont;
+    src: url(../images/my_chemical_romance.ttf);
+}
+
+h1{
+    font-family: emoFont;
+    color:red;
+    text-shadow: 3px 2px white;
+}
+
+p{
+    font-family: emoFont;
+    color: red;
+    text-shadow: 1px 1px white;
+}
+
+#emoTron{
+    background-color: rgba(0, 0, 0, .98);    padding-bottom: 5px;
+    margin-bottom: 0;
+}
+
+body{
+    background-image: url("../images/63655-OAV6NN-450.jpg");
+}
+.contentColumns{
+    color: red;
+}
+.columnsBody{
+    background-color: rgba(0, 0, 0, .95);
+    
+}
+
