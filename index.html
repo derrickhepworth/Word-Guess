@@ -6,10 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Word Guess</title>
 
+    <!-- Jquery CDN and link -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="/assets/javascript/game.js"></script>
+    
     <!-- CSS Link/Bootstrap CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+
 
 </head>
 
@@ -17,25 +22,24 @@
     <div class="jumbotron jumbotron-fluid" id="emoTron">
         <div class="container">
             <h1 class="display-4">Emo Band Guess</h1>
-            <p class="lead"> ...the pain
+            <p class="lead"> angst & hair
             </p>
         </div>
     </div>
 
-    <div class=" container rounded columnsBody">
+    <div class=" container  columnsBody">
         <div class="row">
             <div class="col contentColumns">
-                Dynamically update image and music api player
-                <img src="https://picsum.photos/300/300?random=1" class="img-thumbnail">
-                <img src="https://picsum.photos/300/300?random=2" class="img-thumbnail">
+                <img src="https://picsum.photos/300/300?random=1" class="img-thumbnail imgBox">
+                <img src="https://picsum.photos/300/300?random=2" class="img-thumbnail imgBox">
             </div>
             <div class="col contentColumns">
                 Dynamic Game elements
-                <div>Wins</div>
-                <div>Current Word</div>
-                <div>* _____ _ _ _ _ _ *</div>
-                <div>Guesses remaining</div>
-                <div>Letters Already Guessed</div>
+                <p>Press any key to start</p>
+                <p>Wins ___</p>
+                <p>Current Band <span id="currentBand"></span></p>
+                <p> guesses remaining 10</p>
+                <p>letters guessed</p>
             </div>
         </div>
 
